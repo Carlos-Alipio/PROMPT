@@ -1,0 +1,18 @@
+# --- Python ---
+*.py[cod]
+__pycache__/
+*.so
+# --- Streamlit ---
+.streamlit/secrets.toml
+# --- Ambientes virtuais ---
+.venv/
+env/
+# --- IDEs ---
+.vscode/
+.idea/
+# --- Logs e dados temporários ---
+*.log
+*.tmp
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
