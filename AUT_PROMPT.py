@@ -11,7 +11,7 @@ import textwrap
 import requests
 import json
 import os
-#from docx import Document
+from docx import Document
 from io import BytesIO
 import fitz  # PyMuPDF - usado para ler PDFs
 import time
