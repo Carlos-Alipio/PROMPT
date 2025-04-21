@@ -153,7 +153,7 @@ def call_gemini(prompt, api_key):
         return None
 
     api_url_base = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
-    api_key = "AIzaSyBm_HI7mMOfTyb_27SiEoN4lPETehtcof4"
+    #api_key = "AIzaSyBm_HI7mMOfTyb_27SiEoN4lPETehtcof4"
     api_url_with_key = f"{api_url_base}?key={api_key}"
 
     headers = {"Content-Type": "application/json"}
